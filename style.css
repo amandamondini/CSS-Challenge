@@ -1,0 +1,30 @@
+img{
+    height: 1em;
+    width: 1em;
+}
+
+span{
+    float: right;
+    background-color: rgb(66, 100, 100);
+    padding: 1em;
+}
+
+.submitbutton{
+    width: 25rem;
+    text-align: left;
+    color: white;
+    background-color:darkslategray; 
+    font-size: 25px;
+    margin: 1em;
+    border: 5px solid gray; /* could also use border-radius: 3px */
+    
+}
+
+
+.submitbutton:hover{
+    background-color:cadetblue;
+}
+
+.submitbutton:focus{
+    background-color: lightslategray;
+}
